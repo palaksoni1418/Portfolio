@@ -1,4 +1,5 @@
 @import "./../mixins";
+@import "skills";
 /*==================Common classes================*/
 $fc-red: #ff4454;
 $fc-darkGray:#222;
@@ -97,10 +98,10 @@ h4.subHeading {
     }
   }
 }
-.technical .skills
-.skilBg {
-  background:url(../../assets/img/skills.png) no-repeat 0 0;
-}
+//.technical .skills
+//.skilBg {
+//  background:url(../../assets/img/skills.png) no-repeat 0 0;
+//}
 .chart {
   position: relative;
   display: inline-block;
@@ -122,7 +123,6 @@ h4.subHeading {
   z-index: 2;
 }
 .percent:after {
-  content: '%';
   margin-left: 0.1em;
   font-size: .8em;
 }

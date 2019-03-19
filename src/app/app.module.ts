@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import {TypingAnimationDirective} from "angular-typing-animation";
+import { SkillsComponent } from './skills/skills.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     PortfolioComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    TypingAnimationDirective,
+    SkillsComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule

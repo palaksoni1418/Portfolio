@@ -1,6 +1,9 @@
 @import "mixins";
 // Typography
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   @include body-font;
 }

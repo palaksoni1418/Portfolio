@@ -85,6 +85,10 @@ section {
   line-height: 2rem;
 }
 
+.copyright {
+  background-color: darken($secondary, 10%);
+}
+
 // Scroll to Top Button
 .scroll-to-top {
   z-index: 1042;
