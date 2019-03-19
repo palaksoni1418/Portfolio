@@ -1,0 +1,129 @@
+@import "./../variables";
+
+/*==================Common classes================*/
+$fc-red: #ff4454;
+$fc-darkGray:#222;
+h2 {
+  //color:$fc-red;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:80px;
+  line-height:90px;
+  font-weight:700;
+  margin:0px;
+  padding-bottom:8px;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:36px;
+  line-height:38px;
+  padding-bottom:0px;
+  font-weight:300;
+  text-transform:uppercase;
+  margin:0px;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:24px;
+  line-height:30px;
+  padding-bottom:6px;
+  font-weight:400;
+  margin:0px;
+}
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:19px;
+  line-height:24px;
+  padding-bottom:6px;
+  font-weight:600;
+  margin:0px;
+}
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  line-height:24px;
+  padding-bottom:6px;
+  font-weight:400;
+  margin:0px;
+}
+h4.subHeading {
+  font-weight:600;
+  font-size:18px;
+  padding-bottom:22px;
+}
+.heading {
+  text-align:center;
+  padding-bottom:45px;
+}
+.topmar {
+  margin-top:20px;
+}
+
+/*==============================Style for Work Experience Style==============================*/
+
+
+.exprience {
+  .container {
+    p {
+      color:#84868d;
+      font-size:13px;
+      line-height:18px;
+    }
+    .heading {
+      p {
+        padding-bottom:41px;
+      }
+    }
+    h4 {
+      font-weight:700;
+    }
+    .workDetails {
+      .rightArea {
+        border-left: 1px solid #eaeaea;
+        padding-bottom:47px;
+        .arrowpart {
+          float:left;
+          width:15px;
+          height:50px;
+          background:url(../../assets/img/arrow-left.png) no-repeat 0 23px;
+        }
+        .exCon {
+          width:auto;
+          background:#f3f3f3;
+          border-bottom:solid 4px #eeeeee;
+          padding:22px 47px 6px 47px;
+          margin-left:15px;
+          text-align:left;
+          p {
+            color:#84868d;
+            line-height:21px;
+          }
+          h4 {
+            color:#474d5d;
+            padding-bottom:3px;
+          }
+          h5 {
+            color:#474d5d;
+          }
+        }
+        &:last-child {
+          .rightArea {
+            padding-bottom:0px;
+          }
+        }
+      }
+      .workYear {
+        font-size:17px;
+        color:#fff;
+        background:$secondary !important;
+        text-align:center;
+        width:120px;
+        height:120px;
+        padding:40px 0 40px 0;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+      }
+    }
+  }
+}
