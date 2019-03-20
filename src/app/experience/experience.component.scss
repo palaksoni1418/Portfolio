@@ -127,3 +127,104 @@ h4.subHeading {
     }
   }
 }
+
+/*==============================Style for Responsive Style==============================*/
+
+@media screen and (min-width: 1200px) {
+  .workYear {
+    width:140px;
+    height:140px;
+    padding-top:50px;
+  }
+  .education .workYear {
+    padding-top:58px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar.navbar-inverse.navbar-static-top a {
+    padding-left:18px;
+    padding-right:18px;
+  }
+  .bannerText {
+    padding-left:25px;
+    padding-right:25px;
+  }
+  .bannerText h1 {
+    font-size:65px;
+    line-height:71px;
+  }
+  .bannerText h2 {
+    font-size:28px;
+  }
+  .proPic {
+    text-align:center;
+  }
+}
+@media screen and (max-width: 810px) {
+  body {
+    min-height:700px;
+  }
+  #header h3 {
+    font-size: 38px;
+  }
+  #header h3 span {
+    font-size: 16px;
+  }
+  .abc {
+    width:100%;
+  }
+  .navbar.navbar-inverse.navbar-static-top a {
+    padding-left: 17px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .conForm input.col-sm-6 {
+    width: 48.5%;
+  }
+  .conForm input.col-lg-6 {
+    width: 48.5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-wrapper .container,  .navwrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  ul.portfolioContainer li.col-xs-6 {
+    width:49%;
+    min-height: 85px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar-header {
+    display:block;
+  }
+
+  .exprience {
+    .container {
+      .workDetails{
+        .rightArea {
+          border-left:none;
+          .arrowpart {
+            float:none;
+            width:100%;
+            height:40px;
+            background:url(src/assets/img/arrow-top.png) no-repeat 50% 100%;
+          }
+          .exCon {
+            margin-left:0px;
+          }
+        }
+        .workYear {
+          margin:0 auto;
+        }
+      }
+    }
+  }
+
+
+
+  ul.navbar-nav li a {
+    display:block;
+  }
+}
