@@ -34,8 +34,10 @@
 }
 @media(min-width:992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    //padding-top: 1.5rem;
+    //padding-bottom: 1.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
