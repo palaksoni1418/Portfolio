@@ -54,3 +54,10 @@
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid $gray-200;
 }
+
+.padding-top-xl {
+  padding-top: 30px;
+  div {
+    padding-bottom: 10px;
+  }
+}
