@@ -4,3 +4,11 @@ I'm a Front-end Developer from Alpharetta, GA.
 I'm passionate about building excellent User Experience/ User Interface that improves the lives of those around me. 
 I specialize in creating UI for clients ranging from individuals and small businesses all the way to large corporations.
 What would you do if you had a UI expert available at your fingertips?
+
+
+
+ng build --prod --base-href "https://palaksoni1418.github.io/Portfolio/"
+
+
+https://palaksoni1418.github.io/assets/img/profile2.png
+https://github.com/palaksoni1418/Portfolio/blob/master/src/assets/img/profile2.png
