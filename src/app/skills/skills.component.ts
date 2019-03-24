@@ -7,7 +7,7 @@ import {SkillService} from "./skill.service";
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
-  skills: Object;
+  skills: any;
 
   constructor(private skillService: SkillService) { }
 
