@@ -20,9 +20,9 @@
     },
     {
       "id": 4,
-      "title": "Angular / Webpack",
+      "title": "Angular",
       "percentage": 50,
-      "description": "MVC framework to build a Single page application"
+      "description": "MVC framework to build a Single page application using TypeScript, Rxjs and Webpack"
     },
     {
       "id": 5,
