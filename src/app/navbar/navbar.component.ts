@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  private navList:Array<string>;
+  navList:Array<string>;
   private selected: string;
   constructor() {
     this.navList = [
