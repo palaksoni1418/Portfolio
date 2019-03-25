@@ -1,41 +1,38 @@
-{
-  "data": [
-    {
-      "id": 1,
-      "title": "HTML5 / CSS3",
-      "percentage": 90,
-      "description": "Standard markup language for creating web pages"
-    },
-    {
-      "id": 2,
-      "title": "jQuery",
-      "percentage": 80,
-      "description": "Write less do more JavaScript library"
-    },
-    {
-      "id": 3,
-      "title": "Javascript",
-      "percentage": 70,
-      "description": "Language commonly used to create interactive effects within web browsers"
-    },
-    {
-      "id": 4,
-      "title": "Angular",
-      "percentage": 50,
-      "description": "MVC framework to build a Single page application using TypeScript, Rxjs and Webpack"
-    },
-    {
-      "id": 5,
-      "title": "Bootstrap / RWD",
-      "percentage": 90,
-      "description": "To Develop a website with mobile-first concept"
-    },
-    {
-      "id": 6,
-      "title": "sass / less",
-      "percentage": 70,
-      "description": "CSS preprocessors to add logic in stylesheets"
-    }
-  ],
-  "header": "Technical Skills"
-}
+[
+  {
+    "id": 1,
+    "title": "HTML5 / CSS3",
+    "percentage": 90,
+    "description": "Standard markup language for creating web pages"
+  },
+  {
+    "id": 2,
+    "title": "jQuery",
+    "percentage": 80,
+    "description": "Write less do more JavaScript library"
+  },
+  {
+    "id": 3,
+    "title": "Javascript",
+    "percentage": 70,
+    "description": "Language commonly used to create interactive effects within web browsers"
+  },
+  {
+    "id": 4,
+    "title": "Angular",
+    "percentage": 50,
+    "description": "MVC framework to build a Single page application using TypeScript, Rxjs and Webpack"
+  },
+  {
+    "id": 5,
+    "title": "Bootstrap / RWD",
+    "percentage": 90,
+    "description": "To Develop a website with mobile-first concept"
+  },
+  {
+    "id": 6,
+    "title": "sass / less",
+    "percentage": 70,
+    "description": "CSS preprocessors to add logic in stylesheets"
+  }
+]
