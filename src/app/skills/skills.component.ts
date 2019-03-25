@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {SkillService} from "./skill.service";
+import {ISkills} from "./skills.interface";
 
 @Component({
   selector: 'app-skills',
@@ -7,13 +8,13 @@ import {SkillService} from "./skill.service";
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
-  skills: any;
+  skills: ISkills[];
 
   constructor(private skillService: SkillService) { }
 
   ngOnInit() {
-    this.skillService.getSkill().subscribe((response) => {
-      this.skills = response;
+    this.skillService.getSkill().subscribe((responseData: ISkills[]) => {
+      this.skills = responseData;
     })
   }
 

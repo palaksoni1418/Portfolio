@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import {HttpClientModule} from "@angular/common/http";
+import {SkillService} from "./skills/skill.service";
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import {HttpClientModule} from "@angular/common/http";
     BrowserModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [SkillService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

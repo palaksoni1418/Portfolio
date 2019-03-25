@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {ISkills} from "./skills.interface";
 
 @Injectable({
   providedIn: 'root'
@@ -7,9 +8,9 @@ import {HttpClient} from "@angular/common/http";
 export class SkillService {
   apiUrl: string = './../assets/skill.json';
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private http: HttpClient) { }
 
   getSkill() {
-    return this.httpClient.get(this.apiUrl);
+    return this.http.get<ISkills[]>(this.apiUrl);
   }
 }
