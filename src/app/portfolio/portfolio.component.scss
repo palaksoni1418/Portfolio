@@ -55,6 +55,10 @@
       }
       .portfolio-item-caption-content {
         font-size: 1.5rem;
+        text-decoration: none;
+        .project-type {
+          padding-bottom: 10px;
+        }
       }
     }
   }
